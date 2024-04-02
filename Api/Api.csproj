@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>0c5a01a2-d975-4396-bba3-9919a05d0a3d</UserSecretsId>
+    <DockerComposeProjectPath>docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Docker' " />
+  <ItemGroup>
+    <None Remove="Controllers\" />
+    <None Remove="Helpers\" />
+    <None Remove="Services\" />
+    <None Remove="Repositories\" />
+    <None Remove="Middlewares\" />
+    <None Remove="Exceptions\" />
+    <None Remove="EF\" />
+    <None Remove="EF\Entities\" />
+    <None Remove="Utils\" />
+    <None Remove="Utils\Pagination\" />
+    <None Remove="EF\SQL\" />
+    <None Remove="DTOS\" />
+    <None Remove="Mappings\" />
+    <None Remove="Exceptions\Base\" />
+    <None Remove="Services\TagsService\" />
+    <None Remove="Services\StackExchangeAuthService\" />
+  </ItemGroup>
+  <ItemGroup>
+   <None Include="appsettings.Docker.json" CopyToPublishDirectory="Always" />
+</ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Services\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Middlewares\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="EF\" />
+    <Folder Include="EF\Entities\" />
+    <Folder Include="Utils\" />
+    <Folder Include="Utils\Pagination\" />
+    <Folder Include="EF\SQL\" />
+    <Folder Include="DTOS\" />
+    <Folder Include="Mappings\" />
+    <Folder Include="Exceptions\Base\" />
+    <Folder Include="Services\TagsService\" />
+    <Folder Include="Services\StackExchangeAuthService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Ardalis.GuardClauses" Version="4.5.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+  </ItemGroup>
+</Project>

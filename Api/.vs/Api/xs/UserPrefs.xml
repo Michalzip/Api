@@ -1,0 +1,120 @@
+﻿<Properties StartupConfiguration="{FBBA60E8-280E-4623-A671-F59FFBD0ACFC}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/.UnitTest/Test/TagControllerTests.cs" relfile=".UnitTest/Test/TagControllerTests.cs" line="45" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/.UnitTest/Test/TagControllerTests.cs" relfile=".UnitTest/Test/TagControllerTests.cs" line="46" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/.UnitTest/Test/TagControllerTests.cs" relfile=".UnitTest/Test/TagControllerTests.cs" line="43" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/.UnitTest/Test/TagServiceTests.cs" relfile=".UnitTest/Test/TagServiceTests.cs" line="54" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/.UnitTest/Test/TagServiceTests.cs" relfile=".UnitTest/Test/TagServiceTests.cs" line="57" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/.UnitTest/Test/TagServiceTests.cs" relfile=".UnitTest/Test/TagServiceTests.cs" line="32" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/.UnitTest/Test/TagServiceTests.cs" relfile=".UnitTest/Test/TagServiceTests.cs" line="35" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/.UnitTest/Test/TagServiceTests.cs" relfile=".UnitTest/Test/TagServiceTests.cs" line="31" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/.IntegrationTest/Test/TagRepositoryTest.cs" relfile=".IntegrationTest/Test/TagRepositoryTest.cs" line="27" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/.IntegrationTest/Test/TagRepositoryTest.cs" relfile=".IntegrationTest/Test/TagRepositoryTest.cs" line="38" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/.IntegrationTest/Test/TagRepositoryTest.cs" relfile=".IntegrationTest/Test/TagRepositoryTest.cs" line="40" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/.IntegrationTest/Test/TagRepositoryTest.cs" relfile=".IntegrationTest/Test/TagRepositoryTest.cs" line="43" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/Controllers/AuthController.cs" relfile="Controllers/AuthController.cs" line="30" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/Controllers/AuthController.cs" relfile="Controllers/AuthController.cs" line="25" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/Services/StackExchangeAuthService/StackExchangeAuthService.cs" relfile="Services/StackExchangeAuthService/StackExchangeAuthService.cs" line="48" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/Controllers/AuthController.cs" relfile="Controllers/AuthController.cs" line="28" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/Services/StackExchangeAuthService/StackExchangeAuthService.cs" relfile="Services/StackExchangeAuthService/StackExchangeAuthService.cs" line="50" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/Processes/IFilterTagsProcess.cs" relfile="Processes/IFilterTagsProcess.cs" line="1" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/Project/Api/Controllers/AuthController.cs" relfile="Controllers/AuthController.cs" line="23" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Api.IntegrationTest/Factory/ApiFactory.cs">
+    <Files>
+      <File FileName="../Api.UnitTest/Test/TagServiceTests.cs" Line="26" Column="74" />
+      <File FileName="../Api.UnitTest/Fixtures/TagServiceFixture.cs" />
+      <File FileName="DTOS/TagsDto.cs" />
+      <File FileName="../Api.UnitTest/Fixtures/RepositoryServiceFixture.cs" />
+      <File FileName="../Api.UnitTest/Test/TagControllerTests.cs" Line="50" Column="1" />
+      <File FileName="Controllers/TagsController.cs" Line="25" Column="32" />
+      <File FileName="Repositories/TagRepository.cs" />
+      <File FileName="appsettings.json" />
+      <File FileName="../../../.microsoft/usersecrets/0c5a01a2-d975-4396-bba3-9919a05d0a3d/secrets.json" />
+      <File FileName="../../../.microsoft/usersecrets/110a2cf6-c5ef-42c3-be14-db85f60eb5db/secrets.json" />
+      <File FileName="EF/DatabaseContext.cs" />
+      <File FileName="EF/SQL/SqlOptions.cs" />
+      <File FileName="EF/SQL/SqlConnection.cs" />
+      <File FileName="../Api.IntegrationTest/Test/TagRepositoryTest.cs" Line="40" Column="1" />
+      <File FileName="../Api.IntegrationTest/Factory/ApiFactory.cs" Line="34" Column="1" />
+      <File FileName="Program.cs" />
+      <File FileName="IInitializer.cs" />
+      <File FileName="EF/DataInitializer.cs" />
+      <File FileName="Services/AppInitializer.cs" />
+      <File FileName="Middlewares/ErrorHandlerMiddleware.cs" />
+      <File FileName="../Api.IntegrationTest/Test/StackExchangeAuthTest.cs" Line="37" Column="1" />
+      <File FileName="Services/StackExchangeAuthService/StackExchangeAuthService.cs" Line="27" Column="10" />
+      <File FileName="Helpers/DecodeHelper.cs" />
+      <File FileName="Services/TagsService/ITagsService.cs" />
+      <File FileName="Services/StackExchangeAuthService/Configuration/IConfigurationStackExchange.cs" />
+      <File FileName="Services/StackExchangeAuthService/Configuration/ConfigurationStackExchange.cs" />
+      <File FileName="Services/StackExchangeAuthService/IStackExchangeAuthService.cs" Line="1" Column="1" />
+      <File FileName="Dockerfile" />
+      <File FileName="docker-compose.yml" />
+      <File FileName="Extensions.cs" />
+      <File FileName="Controllers/AuthController.cs" Line="25" Column="1" />
+      <File FileName="appsettings.Development.json" />
+      <File FileName="appsettings.docker.json" />
+      <File FileName="Utils/Pagination/PaginationParams.cs" />
+      <File FileName="Utils/Pagination/PagedList.cs" Line="33" Column="49" />
+      <File FileName="Services/TagsService/TagsService.cs" Line="54" Column="1" NotebookId="1" />
+      <File FileName="EF/Entities/Tags.cs" Line="14" Column="1" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Api" expanded="True">
+            <Node name="Api" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="DTOS" expanded="True" />
+              <Node name="EF" expanded="True">
+                <Node name="Entities" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="StackExchangeAuthService" expanded="True" />
+                <Node name="TagsService" expanded="True" />
+              </Node>
+              <Node name="Utils" expanded="True">
+                <Node name="Pagination" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Api.IntegrationTest" expanded="True">
+              <Node name="Factory" expanded="True">
+                <Node name="ApiFactory.cs" selected="True" />
+              </Node>
+              <Node name="Test" expanded="True" />
+            </Node>
+            <Node name="Api.UnitTest" expanded="True">
+              <Node name="Test" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Api">
+            <Node name="Api.IntegrationTest" expanded="True">
+              <Node name="Api.IntegrationTest.Test">
+                <Node name="StackExchangeAuthTest">
+                  <Node name="GetToken_Should_Return_Exception - 8b99e8d0-6d6d-c64b-9df1-1f3b0568dee2" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <DisabledProjects>
+    <String>docker-compose.dcproj</String>
+  </DisabledProjects>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../../Api.IntegrationTest/Test/StackExchangeAuthTest.cs" line="30" column="16" endLine="30" endColumn="59" offsetX="-1" offsetY="-1" expression="response" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

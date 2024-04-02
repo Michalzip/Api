@@ -1,0 +1,1 @@
+/Users/michal/Desktop/Project/Api/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
